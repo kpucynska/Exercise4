@@ -7,7 +7,7 @@ penguin_scatter <- function(x_var, y_var){
   ggplot(data = penguins, aes(x = .data[[x_var]],
                               y = .data[[y_var]])) +
     geom_point(aes(color = species),
-               size = 3,
+               size = 2,
                alpha = 0.9)
 }  
 
